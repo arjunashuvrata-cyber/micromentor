@@ -1,0 +1,70 @@
+/* Variables for consistent color palette */
+:root {
+  --primary-color: #007bff; /* Indigo/Purple accent for primary actions */
+  --primary-hover-color: #0056b3;
+  --secondary-color: #6c757d; /* Grey for secondary actions */
+  --secondary-hover-color: #5a6268;
+  --success-color: #28a745; /* Green for success */
+  --success-hover-color: #218838;
+  --danger-color: #dc3545; /* Red for danger */
+  --danger-hover-color: #c82333;
+  --text-color-light: white;
+  --text-color-dark: #333;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+}
+
+/* Primary Button (Indigo/Purple accent) */
+.button.primary {
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+}
+
+.button.primary:hover {
+  background-color: var(--primary-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Secondary Button (Grey) */
+.button.secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color-light);
+}
+
+.button.secondary:hover {
+  background-color: var(--secondary-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Success Button (Green) */
+.button.success {
+  background-color: var(--success-color);
+  color: var(--text-color-light);
+}
+
+.button.success:hover {
+  background-color: var(--success-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Danger Button (Red) */
+.button.danger {
+  background-color: var(--danger-color);
+  color: var(--text-color-light);
+}
+
+.button.danger:hover {
+  background-color: var(--danger-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom classes for specific screens can override these */

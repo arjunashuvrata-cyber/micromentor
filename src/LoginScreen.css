@@ -1,0 +1,21 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-light);
+  min-height: calc(100vh - 100px); /* Adjust based on nav height */
+}
+
+.login-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--text-color-dark);
+  margin-bottom: 30px;
+}
+
+.full-width {
+  width: 100%;
+}

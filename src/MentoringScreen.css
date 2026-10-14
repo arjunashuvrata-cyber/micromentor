@@ -1,0 +1,63 @@
+
+.mentoring-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-light);
+  min-height: calc(100vh - 100px);
+}
+
+.mentoring-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: var(--text-color-dark);
+  text-align: center;
+}
+
+.form-section { /* Custom styling for FormSection in this screen */
+  max-width: 600px;
+  text-align: center;
+}
+
+.mentor-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.mentor-info {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.section-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color-dark);
+}
+
+.mentor-availability {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.selected-slot {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--success-color);
+  margin-bottom: 20px;
+}
+
+.mentor-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}

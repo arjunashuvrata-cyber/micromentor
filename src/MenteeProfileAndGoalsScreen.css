@@ -1,0 +1,33 @@
+
+.mentee-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-light);
+  min-height: calc(100vh - 100px); /* Adjust based on nav height */
+}
+
+.mentee-profile-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--text-color-dark);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-section {
+  max-width: 600px;
+}
+
+.experience-level-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 6px;
+}

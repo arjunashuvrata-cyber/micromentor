@@ -1,0 +1,54 @@
+
+.browse-mentors-container {
+  padding: 20px;
+  background-color: var(--background-light);
+}
+
+.browse-mentors-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px; /* Increased spacing */
+  color: var(--text-color-dark);
+  text-align: center;
+}
+
+.mentors-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.mentor-card {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  padding: 20px; /* Increased padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes button to bottom */
+}
+
+.mentor-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--primary-color); /* Highlight mentor names */
+}
+
+.mentor-expertise {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.mentor-availability {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px; /* Spacing before button */
+}
+
+.mentor-card .button {
+  width: 100%;
+  margin-top: auto; /* Push button to the bottom of the card */
+}
